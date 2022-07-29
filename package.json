@@ -1,0 +1,20 @@
+{
+  "name": "projects",
+  "version": "1.0.0",
+  "description": "my first node app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Maksim Ramazanov",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/router": "^12.0.0",
+    "koa": "^2.13.4",
+    "one-liner-joke": "^1.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
